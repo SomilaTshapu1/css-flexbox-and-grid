@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,
+     initial-scale=1.0">
+     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+     <link rel="stylesheet" href="css/style.css">
+    <title>CSS Flexbox</title>
+</head>
+<body id="flexbox">
+    
+    <header class="header">
+        <div class="logo">Somila Tshapu<i class = "fas fa-code"></i></div>
+        <div class="toggle"></div>
+        <div class="navigation">
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="grid2.html">CSS Grid</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+          
+          </div>
+        </div>
+        <div class="container">
+            <div>
+                <h1>What is Flexbox?</h1>
+                <p>
+                    The flexbox, was designed as a one-dimensional layout model, and as a method that could offer space distribution between items in an interface and powerful alignment capabilities. Flexbox is a very important and useful tool in CSS.
+                </p>
+                
+              
+            </div>
+            
+            <img src="images/What-is-Flexbox-in-CSS-8-removebg-preview (2).png" alt="">
+
+        </div>
+        
+    </header>
+    <!---------Flexbox Container and items-------->
+
+    <div class="elements-boxes">
+        <h1>Flexbox Elements</h1>
+        <div class="container">
+            <div class="elements-box">
+                <h2>
+                Flex Parent(Container)</h2>
+                <p>Flexible containers either expand the element to fill the available free space or shrink the element to prevent overflow. Most importantly, unlike the regular 
+                    layout, the flexbox layout is direction-agnostic</p>
+                <h4>The flex container properties are:</h4>
+                <li>flex-direction</li>
+                <li> flex-wrap </li>
+                <li>flex-flow</li>
+                <li> justify-content</li>
+                <li> align-items</li>
+                <li> align-content</li>
+            </div>
+
+            <div class="elements-box">
+               <h2> Flex Parent(Container) with explainations</h2>
+                <li>flex-direction - The flex-direction property defines in which direction the container wants to stack the flex items.</li>
+                <li>flex-wrap - The flex-wrap property specifies whether the flex items should wrap or not.</li>
+                <li>flex-flow - The flex-flow property is a shorthand property for setting both the flex-direction and flex-wrap properties.</li>
+                <li>justify- content - The justify-content property is used to align the flex items </li>
+                <li>align-items - The align-items property is used to align the flex items.</li>
+                <li>align-content - The align-content property is used to align the flex lines.</li>
+            </div>
+
+            <div class="elements-box">
+                <h2>
+                Flex Child (Items)</h2>
+                <p>The direct child elements of a flex container automatically becomes flexible (flex) items.
+                </p>
+                <h4>The flex item properties are:</h4> 
+                <li>order - The order property specifies the order of the flex items.</li>
+                <li>flex-grow - The flex-grow property specifies how much a flex item will grow relative to the rest of the flex items.</li>
+                <li>flex-shrink - The flex-shrink property specifies how much a flex item will shrink relative to the rest of the flex items.</li>
+                <li>flex-basis - Specifies the initial length of a flex item</li>
+                <li>flex - A shorthand property for the flex-grow, flex-shrink, and the flex-basis properties</li>
+                <li>align-self - Specifies the alignment for a flex item (overrides the flex container's align-items property)</li>
+
+
+
+
+
+
+
+            </div>
+            
+   
+            
+            
+        </div>
+
+    <!----------------------End of container -------------------------------->
+
+    <div class="boxes">
+        <h1>Why Use Flexbox?</h1>
+        <div class="container">
+            <div class="box">
+                <h2><i class="fas fa-arrows-alt-v"></i>
+                Aligment & Space</h2>
+                <p>A more efficient way to layout, align and distribute space among items in container</p>
+            </div>
+            <div class="box">
+                <h2><i class="fas fa-arrows-alt"></i>
+                Tricky Spacing</h2>
+                <p>Flexbox usually solves tricky problems including how to position or 
+                    dynamical resize elements on the page
+                </p>
+            </div>
+            <div class="box">
+                <h2><i class="fas fa-mobile"></i>
+               Responsive Design</h2>
+                <p>Flexbox makes building a website layout and make it responsive much easier</p>
+            </div>
+            
+            
+        </div>
+    </div>
+    
+     <!--Custom js-->
+ <script src ="js/script.js"></script>
+</body>
+</html>
